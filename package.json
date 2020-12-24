@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^4.2.0",
+    "webpack": "^5.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "bulid":"webpack --mode=production",
+    "dev": "webpack --mode=development --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
